@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+	Ans: when you initialize a repository, a .git file is created. And someone cannot just see it when the repository in open.
+	the initialization is needed as it then allows the user to perform git command to the repository.
+	
