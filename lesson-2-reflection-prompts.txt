@@ -14,4 +14,6 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 	Ans: the diagram helps me visualize the branch structure as it broke down a complex idea into simple steps.
 	I could easily see what commits are accessible from a branch, and those that are not. Also what commits belong to another branch. The diagram also made it easy to understand the merging process, and knowing what commits would still be available and accessible once the merge is done and those that would not be able to show or be accessible directly from the new branch.
-	
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	 Ans: the Resulut of merging two branches together is a new branch from which you can access commits from the two different branches that was not possible before the merge. I believe that we represent merging in a diagram to not only make it easy to understand but to also show what commits will be accessible once the merge is complete. That allows us to make sure that we are not missing any commit that would be needed in the new merge. 
