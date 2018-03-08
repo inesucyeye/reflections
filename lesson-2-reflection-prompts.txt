@@ -1,4 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 	Ans: when you initialize a repository, a .git file is created. And someone cannot just see it when the repository in open.
 	the initialization is needed as it then allows the user to perform git command to the repository.
-	
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	Ans: I believe that the difference between the working directory and the staging area, is that first the staging area is the intermediate state between the working directory and the repository. one can make as many changes to a file in the working directory but until the file is added to the staging area (git add), those changes would not appear in the staging area. and to go from the working directory to the repository, one has to add or go through the staging area. The repository is where we find all the changes made to a file once the changes have been commited from the staging area( git commit). I believe that the value that this gives us is the freedom to work and make changes as developer without having the fear of breaking the code. we can work in the working directory and test our code, and in case we break the code. thanks to the code being saved in the repository, we can reverse our changes and pinpoint what line introduced the bug without taking too long debugging. And that gives us the ability to be creative.
