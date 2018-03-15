@@ -15,3 +15,6 @@ Describe the differences between forks, clones, and branches. When would you use
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 	Ans: If for some reasons, I have to work offline, I can make sure before going offline that I have the latest copy of the known state of the remote on my machine even if I do not merge my changes with it(by using the fetch command), and merge the two copies once I'm ready I can merge my changes locally.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Ans: I have used dropbox before to collaborate with other team members. Thus if I were to pick outside of version controls that are meant to make sharing code easier, I would suggest to create a folder on dropbox where we could all make changes. The challenges would emerged when we all have to modify the same code, or when trying to merge those changes and avoiding conflicts, I believe that it would be very time consuming.
