@@ -18,3 +18,7 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 	Ans: I have used dropbox before to collaborate with other team members. Thus if I were to pick outside of version controls that are meant to make sharing code easier, I would suggest to create a folder on dropbox where we could all make changes. The challenges would emerged when we all have to modify the same code, or when trying to merge those changes and avoiding conflicts, I believe that it would be very time consuming.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	Ans:  If I'm working on a different feature that I am not yet sure I would want to implement in my master branch, I could create a testing branch, and once I'm sure done developing, testing, and I'm sure to want that feature in my master branch, then I would merge the two together.Also, If I'm working with a group of people, each working on a separate branch would give us all the opportunity to share those changes, and have an open discussion with them how to better merge our changes without actually breaking the each other's code, and once we have a clean code, we can then merge it into the master.
+	on the other hand, if I am working on my own, I believe that I would be making changes directly into the master branch often as it is easy.
